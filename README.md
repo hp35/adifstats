@@ -65,7 +65,7 @@ bands=all).
 
 Graph showing the histogram of accumulated distances, country-wise, (here
 with mode=FT8, bands=all).
-![Histogram of accumulated distances, country-wise (mode=FT8, bands=all)](countryhistogram_distance_FT8_all.png)
+![Histogram of accumulated distances, country-wise (mode=FT8, bands=all)](img/countryhistogram_distance_FT8_all.png)
 
 ### Distance for QSO:s vs time to sunset
 
