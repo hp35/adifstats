@@ -14,8 +14,10 @@ The statistics which so far can be extracted are as follows:
 
   3. Summary of geographic QSO densities (`qsodensity(qsos, buckets, txmode,
      freqband)`):
-        a. Per Maidenhead grid square.
-        b. Per country.
+
+         - Per Maidenhead grid square.
+
+         - Per country.
 
   4. Generation of a world map with QSO density coloring for each Maidenhead
      grid square. (`qsomap(qsos, txmode, freqband, sizes, colors)`)
@@ -30,13 +32,13 @@ The statistics which so far can be extracted are as follows:
      `countryhistogram(qsos, txmode="FT8", freqband="all", numCountries=30)`),
      in two modes:
 
-        a. Histogram of number of qso:s country-wise:
+         - Histogram of number of qso:s country-wise:
            Sorts the dictionary of worked countries in descending order
            ands keep the highest numCountries ones. When creating the
            sorted dictionary, we rely on that dictionaries preserve
            insertion order since Python 3.7+.
 
-        b. Histogram of accumulated worked distance country-wise:
+         - Histogram of accumulated worked distance country-wise:
            Sorts the dictionary of accumulated distances in descending
            order and keeps the highest numCountries ones. Again, when
            creating the sorted dictionary, we rely on that dictionaries
