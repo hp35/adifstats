@@ -1,16 +1,38 @@
 # -*- coding: utf-8 -*-
 """
-For specifications of the ADIF file format, see https://www.adif.org/100/adif_100.htm
+Extraction of maps and statistics from ADIF log files.
 
-Makes use of the following packages:
+The enclosed Python program `adifstats.py` extracts statistical information
+from an ADIF (Amateur Data Interchange Format 1.0) log file, as commonly used
+in the Amateur Radio community. For specifications of the ADIF file format,
+ see https://www.adif.org/100/adif_100.htm
+
+This program makes use of the following packages:
     pyhamtools       https://github.com/dh1tw/pyhamtools 
     adif_io-0.0.3    https://pypi.org/project/adif-io/
     geopandas  https://geopandas.org/en/stable/gallery/plotting_with_geoplot.html
     geoplot    https://residentmario.github.io/geoplot/index.html
 
     See also https://github.com/tylert/maidenhead
-"""
 
+The primary source location for this program is https://github.com/hp35/gpsclient
+
+Copyright (C) 2024, Fredrik Jonsson, under Gnu General Public License
+(GPL) v3. See the enclosed LICENSE for details.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
 import adif_io, geopy.distance, math, sys
 # import geoplot
 import time, datetime
