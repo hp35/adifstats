@@ -67,6 +67,15 @@ Graph of distance for QSO:s versus time to sunset, for FT8 and the 20 metre
 band.
 ![Distance vs time to sunset, FT8 at 20 metre band](img/qsograph_TimeToSunsetVsDistance_FT8_20m.png)
 
+### Difference between sent and received signal strength QSO:s vs time to sunset
+
+Graph of the difference between sent and received signal strength for QSO:s
+versus time to sunset, for FT8 and the 40 metre band. Here "sent signal
+strength" is the signal strength as reported by the remote recipient, as
+delivered in his/her signal report.
+![Difference between sent and received signal strength QSO:s vs time to
+sunset, FT8 at 40 metre band](img/qsograph_TimeToSunsetVsTxMinusRx_FT8_40m.png)
+
 ## Copyright
 Copyright (C) 2024, Fredrik Jonsson, under GPLv3. See enclosed LICENSE.
 
