@@ -55,7 +55,17 @@ See also https://github.com/tylert/maidenhead
 
 ## Examples
 
+### QSO density map, per Maidenhead grid square
+
+QSO map showing the number of QSO:s per grid square (here with mode=FT8,
+bands=all).
 ![QSO map (mode=FT8, bands=all)](img/qsomap_uniform_qsodensity_FT8_all.png)
+
+### Distance for QSO:s vs time to sunset
+
+Graph of distance for QSO:s versus time to sunset, for FT8 and the 20 metre
+band.
+![Distance vs time to sunset, FT8 at 20 metre band](img/qsograph_TimeToSunsetVsDistance_FT8_20m.png)
 
 ## Copyright
 Copyright (C) 2024, Fredrik Jonsson, under GPLv3. See enclosed LICENSE.
