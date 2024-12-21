@@ -61,6 +61,12 @@ QSO map showing the number of QSO:s per grid square (here with mode=FT8,
 bands=all).
 ![QSO map (mode=FT8, bands=all)](img/qsomap_uniform_qsodensity_FT8_all.png)
 
+### Histogram of accumulated distances, country-wise
+
+Graph showing the histogram of accumulated distances, country-wise, (here
+with mode=FT8, bands=all).
+![Histogram of accumulated distances, country-wise (mode=FT8, bands=all)](countryhistogram_distance_FT8_all.png)
+
 ### Distance for QSO:s vs time to sunset
 
 Graph of distance for QSO:s versus time to sunset, for FT8 and the 20 metre
@@ -75,6 +81,13 @@ strength" is the signal strength as reported by the remote recipient, as
 delivered in his/her signal report.
 ![Difference between sent and received signal strength QSO:s vs time to
 sunset, FT8 at 40 metre band](img/qsograph_TimeToSunsetVsTxMinusRx_FT8_40m.png)
+
+### Histogram and accumulated number of QSO:s over time
+
+Graph showing the histogram and accumulated number of QSO:s over time.
+QSO map showing the number of QSO:s per grid square (here with mode=FT8,
+bands=20m).
+![Histogram over number of QSO:s over time (mode=FT8, bands=20m)](img/qsohistogram_time_FT8_20m.png)
 
 ## Copyright
 Copyright (C) 2024, Fredrik Jonsson, under GPLv3. See enclosed LICENSE.
