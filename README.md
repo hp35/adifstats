@@ -53,6 +53,11 @@ The `adifstats.py` program makes use of the following packages:
 
 See also https://github.com/tylert/maidenhead
 
+## Examples
+
+QSO map (mode=FT8, bands=all):
+(img/qsomap_uniform_qsodensity_FT8_all.png)
+
 ## Copyright
 Copyright (C) 2024, Fredrik Jonsson, under GPLv3. See enclosed LICENSE.
 
