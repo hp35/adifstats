@@ -55,7 +55,7 @@ See also https://github.com/tylert/maidenhead
 
 ## Examples
 
-QSO map (mode=FT8, bands=all):
+![QSO map (mode=FT8, bands=all).]
 (img/qsomap_uniform_qsodensity_FT8_all.png)
 
 ## Copyright
